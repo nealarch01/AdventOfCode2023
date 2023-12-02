@@ -22,3 +22,6 @@ inputs.forEach { input in
 }
 
 print("The sum is: \(sum)")
+
+// Part two
+
