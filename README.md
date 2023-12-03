@@ -8,9 +8,11 @@ Running code using:
   <tr>
     <td>Day 1</td>
     <td>Day 2</td>
+    <td>Day 3</td>
   </tr>
 
   <tr>
+    <td>⭐️⭐️</td>
     <td>⭐️⭐️</td>
     <td>⭐️⭐️</td>
   </tr>
