@@ -11,7 +11,7 @@ Running code using:
   </tr>
 
   <tr>
-    <td>⭐️ ⭐️</td>
-    <td>⭐️ ⭐️</td>
+    <td>⭐️⭐️</td>
+    <td>⭐️⭐️</td>
   </tr>
 </table>
