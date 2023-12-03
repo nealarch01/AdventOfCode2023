@@ -59,7 +59,12 @@ func findAdjacentNumbers(_ inputs: [String]) -> Int {
     func checkUp(_ rowIndex: Int, _ columnIndex: Int) {
         let rowIndex = rowIndex - 1
         if rowIndex < 0 { return }
-        if isNumber(rowIndex, columnIndex) { crossOutNumber(rowIndex, columnIndex) }
+        
+        if isNumber(rowIndex, columnIndex) {
+            crossOutNumber(rowIndex, columnIndex)
+            return
+        }
+
         checkRight(rowIndex, columnIndex)
         checkLeft(rowIndex, columnIndex)
     }
@@ -67,7 +72,11 @@ func findAdjacentNumbers(_ inputs: [String]) -> Int {
     func checkDown(_ rowIndex: Int, _ columnIndex: Int) {
         let rowIndex = rowIndex + 1
         if rowIndex >= inputs.count { return }
-        if isNumber(rowIndex, columnIndex) { crossOutNumber(rowIndex, columnIndex) }
+        if isNumber(rowIndex, columnIndex) { 
+            crossOutNumber(rowIndex, columnIndex) 
+            return
+        }
+
         checkRight(rowIndex, columnIndex)
         checkLeft(rowIndex, columnIndex)
     }
