@@ -34,6 +34,7 @@ func findAdjacentNumbers(_ inputs: [String]) -> Int {
 
                 // Remove the number
                 inputs[rowIndex].replaceSubrange(numberInRow, with: String(repeating: ".", count: number.count))
+                break
             }
         }
     }
